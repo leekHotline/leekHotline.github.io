@@ -43,7 +43,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4>邮箱</h4>
-                <p>your@email.com</p>
+                <p>moonhotline@outlook.com</p>
               </div>
             </div>
             <div className="info-item">
@@ -61,7 +61,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4>电话</h4>
-                <p>+86 123 4567 8900</p>
+                <p>+86 15038534859</p>
               </div>
             </div>
           </motion.div>

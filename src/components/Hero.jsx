@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import gsap from 'gsap'
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowDown, Github, X, Mail } from 'lucide-react'
 import './Hero.css'
 
 export default function Hero() {
@@ -36,8 +36,8 @@ export default function Hero() {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/leekHotline', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:your@email.com', label: 'Email' },
+    { icon: X, href: 'https://x.com/attentionisaac', label: 'X' },
+    { icon: Mail, href: 'mailto:moonhotline@outlook.com', label: 'Email' },
   ]
 
   return (
@@ -74,7 +74,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.2 }}
         >
-          我是一名全栈开发者，专注于构建美观、高性能的 Web 应用。
+          我是一名全栈开发者，专注于构建美观、高性能的 AI 应用。
           <br />
           热爱将创意转化为现实，追求极致的用户体验。
         </motion.p>

@@ -4,8 +4,7 @@ import './Footer.css'
 
 const socialLinks = [
   { icon: Github, href: 'https://github.com/leekHotline' },
-  { icon: Linkedin, href: '#' },
-  { icon: Twitter, href: '#' },
+  { icon: Twitter, href: 'https://x.com/attentionisaac' },
 ]
 
 export default function Footer() {
@@ -53,7 +52,7 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <p>
-            © 2024 leekHotline. Made with <Heart size={14} className="heart" /> in China
+            © 2025 leekHotline. Made with <Heart size={14} className="heart" /> in China
           </p>
         </motion.div>
       </div>

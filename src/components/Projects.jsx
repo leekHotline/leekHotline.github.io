@@ -8,15 +8,15 @@ const projects = [
     title: 'Cortex AI',
     desc: '基于 FastAPI + React 的智能对话系统，支持流式响应和多轮对话',
     tags: ['React', 'FastAPI', 'AI'],
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600',
+    image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600',
     github: '#',
     demo: '#'
   },
   {
     title: 'E-Commerce Platform',
-    desc: '全栈电商平台，包含商品管理、购物车、支付等完整功能',
+    desc: '全栈科研平台，包含公式提取、登录、支付等完整功能',
     tags: ['Next.js', 'Node.js', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600',
+    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600',
     github: '#',
     demo: '#'
   },
@@ -24,7 +24,7 @@ const projects = [
     title: 'Design System',
     desc: '企业级组件库，包含 50+ 可复用组件，支持主题定制',
     tags: ['React', 'TypeScript', 'Storybook'],
-    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600',
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600',
     github: '#',
     demo: '#'
   }

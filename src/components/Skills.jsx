@@ -3,16 +3,16 @@ import { useRef } from 'react'
 import './Skills.css'
 
 const skills = [
-  { name: 'React', level: 95 },
-  { name: 'TypeScript', level: 90 },
-  { name: 'Node.js', level: 85 },
-  { name: 'Python', level: 88 },
-  { name: 'FastAPI', level: 85 },
+  { name: 'FastAPI', level: 95 },
+  { name: 'FastMCP', level: 90 },
+  { name: 'Langchain', level: 85 },
+  { name: 'React', level: 88 },
+  { name: 'TypeScript', level: 85 },
   { name: 'PostgreSQL', level: 80 },
 ]
 
 const tools = [
-  'Git', 'Docker', 'AWS', 'Figma', 'VS Code', 'Linux'
+  'Git', 'Docker', 'AWS', 'Nginx', 'Grafana', 'Linux'
 ]
 
 export default function Skills() {

@@ -6,8 +6,8 @@ import './About.css'
 const features = [
   {
     icon: Code,
-    title: '全栈开发',
-    desc: '精通 React、Node.js、Python，构建完整的 Web 应用解决方案'
+    title: '全栈开发 + Agent开发',
+    desc: '精通 FastAPI 、LangChian 、LangGraph、FastMCP、React构建完整的 AI 应用解决方案'
   },
   {
     icon: Palette,
@@ -36,7 +36,7 @@ export default function About() {
         >
           <span className="section-title">关于我</span>
           <h2 className="section-heading">
-            热爱技术，<br />追求卓越
+            热爱技术，追求卓越
           </h2>
         </motion.div>
 
@@ -48,11 +48,11 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p>
-              我是一名充满热情的开发者，拥有多年的 Web 开发经验。
+              我是一名充满热情的开发者，积极拥抱AI，拥有多年的 Web 开发经验。
               我相信好的代码不仅要能工作，还要优雅、可维护。
             </p>
             <p>
-              在工作中，我专注于创建高质量的数字产品，
+              在工作中，我专注于创建高质量的AI代理助手，让agents更智能、更高效。
               从构思到上线，每一个细节都力求完美。
             </p>
           </motion.div>
